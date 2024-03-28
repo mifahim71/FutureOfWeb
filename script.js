@@ -7,6 +7,8 @@ const handleMenu = () => {
     document.getElementById('crsBtn').addEventListener('click',()=>{
         menu.classList.remove('backtoPostion');
     })
+    
+   
 }
 
 handleMenu();

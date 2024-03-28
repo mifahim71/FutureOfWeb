@@ -98,6 +98,10 @@ header a{
     font-size: 20px;
     text-decoration: none;
     font-family: lightFont;
+    transition: 0.5s ease-out;
+}
+header a:hover{
+    color: hsl(5, 85%, 63%);
 }
 header li button{
     background-color: transparent;
@@ -165,6 +169,11 @@ header li button{
     background-color: hsl(5, 85%, 63%);
     border-radius: 5px;
     letter-spacing: 5px;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+.readMoreBtn:hover{
+    background-color: black;
 }
 .mainSection .mainRightPart{
     width: 33.3%;
@@ -182,7 +191,7 @@ header li button{
 .mainRightPart h1{
     font-family: boldFont;
     font-size: 2.5rem;
-    color: darkorange;
+    color: hsl(35, 77%, 62%);
     height: 70px;
     display: flex;
     align-items: center;
@@ -209,6 +218,11 @@ header li button{
 .questions .cards h2{
     color: white;
     font-family: boldFont;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+.questions .cards h2:hover{
+    color: hsl(35, 77%, 62%);
 }
 .questions .cards p{
     color: rgb(150, 149, 149);
@@ -255,6 +269,11 @@ footer{
     font-family: boldFont;
     font-size: 1.1rem;
     color: black;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.footerCards>div h2:hover{
+    color: hsl(35, 77%, 62%);
 }
 .footerCards>div h3{
     font-family: lightFont;
